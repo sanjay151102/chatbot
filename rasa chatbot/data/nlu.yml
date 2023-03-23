@@ -1,0 +1,180 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+  
+- intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - Good morning
+      - Good afternoon
+      - Good evening
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you later
+      - Talk to you soon
+      - Take care
+
+  - intent: symptoms
+    examples: |
+      - I have a headache
+      - My stomach hurts
+      - I feel nauseous
+      - I have a fever
+      - I'm coughing
+      - I'm sneezing
+
+  - intent: appointment
+    examples: |
+      - I need to schedule an appointment
+      - Can I book a consultation?
+      - When is the next available appointment?
+      - What are your hours of operation?
+
+  - intent: medication
+    examples: |
+      - What's the dosage for this medication?
+      - Can I take this medication with food?
+      - How often do I need to take my medication?
+      - What are the side effects of this medication?
+
+  - intent: thank_you
+    examples: |
+      - Thank you
+      - Thanks
+      - Appreciate your help
+
+  - intent: deny
+    examples: |
+      - No
+      - I don't think so
+      - I changed my mind
+
+  - intent: affirm
+    examples: |
+      - Yes
+      - That's correct
+      - Absolutely
+
+  - intent: ask_doctor
+    examples: |
+      - Can you connect me with a doctor?
+      - Is there a doctor available to talk?
+      - Can I speak with a physician?
+
+  - intent: book_appointment
+    examples: |
+      - I want to book an appointment
+      - Can you help me schedule a visit?
+      - I need to see a doctor
+      - When is the next available appointment?
+      - Can I schedule an appointment for tomorrow?
+      - I need to see a specialist
+
+  - intent: cancel_appointment
+    examples: |
+      - I need to cancel my appointment
+      - I can't make it to my appointment
+      - How do I cancel an appointment?
+      - I want to reschedule my visit
+
+  - intent: health_info
+    examples: |
+      - What are the symptoms of the flu?
+      - What is the best treatment for a cold?
+      - How can I prevent diabetes?
+      - What is a healthy diet?
+      - Can you tell me more about high blood pressure?
+
